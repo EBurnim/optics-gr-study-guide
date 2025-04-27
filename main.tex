@@ -1,0 +1,78 @@
+
+\documentclass[11pt]{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{geometry}
+\geometry{letterpaper, margin=1in}
+
+\title{Optics and General Relativity: Study Guide}
+\author{Elizabeth Ray Stoller Burnim}
+\date{2025}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\newpage
+
+\section{Classical Optics Overview}
+\begin{itemize}
+    \item Speed of light in a medium: \( v = \frac{c}{n(r)} \)
+    \item Eikonal equation: \( |\nabla \Phi| = n(r) \)
+    \item Fermat's Principle: \( \delta \int n(r) ds = 0 \)
+    \item Light bends toward regions of higher \( n(r) \) (denser medium).
+\end{itemize}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.7\textwidth]{figures/classical_optics_grin_lens.png}
+    \caption{Light bending through a gradient index material (GRIN lens analogy).}
+\end{figure}
+
+\newpage
+\section{Light in Curved Spacetime}
+\begin{itemize}
+    \item Light follows null geodesics: \( ds^2 = 0 \)
+    \item Schwarzschild metric approximation: \( n(r) \approx 1 + \frac{2GM}{rc^2} \)
+    \item Gravity acts like a medium with a varying refractive index.
+    \item Modified Fermat's Principle: \( \delta \int n_{\text{eff}} ds = 0 \) with \( n_{\text{eff}} \approx 1 + \frac{2\Phi(r)}{c^2} \)
+\end{itemize}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.7\textwidth]{figures/gravitational_lensing.png}
+    \caption{Light bending around a massive object (gravitational lensing).}
+\end{figure}
+
+\newpage
+\section{Gravitational Bending of Light}
+Effective index of refraction:
+
+\begin{equation}
+n(r) \approx 1 + \frac{2GM}{rc^2}
+\end{equation}
+
+Bending angle:
+
+\begin{equation}
+\alpha = \int \nabla_{\perp} n(r) \, dz = \frac{4GM}{c^2 b}
+\end{equation}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.7\textwidth]{figures/eikonal_surfaces.png}
+    \caption{Eikonal surfaces and rays in flat vs. curved spacetime.}
+\end{figure}
+
+\newpage
+\section{References}
+\begin{itemize}
+    \item Misner, Thorne, Wheeler - \textit{Gravitation}
+    \item Sean Carroll - \textit{Spacetime and Geometry}
+    \item Masud Mansuripur - \textit{Classical Optics and Applications}
+    \item Einstein's 1911, 1916 papers on gravitational light bending
+    \item Dyson, Eddington, Davidson (1919) eclipse expedition
+\end{itemize}
+
+\end{document}
